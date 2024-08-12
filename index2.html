@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,label,select,button{
+          margin-top: 10px;
+        }
+
+        #msg{
+            padding: 30px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form >
+   
+    <label for="name">Name</label>
+    <input type="text"id="name"placeholder="Enter your name"><br>
+
+    <label >Sex:</label>
+    <input type="radio"id="male"name="sex">
+    <label for="male">Male</label>
+    <input type="radio"id="Female"name="sex">
+    <label for="Female">Female</label><br>
+
+    <label for="country">Country</label>
+    <select name="country" id="country">
+    <option value="Select"selected disabled>Select an option</option>
+    <option value="Bd">Bangladesh</option>
+    <option value="In">India</option>
+    <option value="Af">Afganistan</option>
+</select><br>
+   <label for="msg">Message</label><br>
+   <input type="text"id="msg"><br>
+   <input type="checkbox"id="sub">
+   <label for="sub">Subscribe?</label><br>
+   
+
+   <button>Submit</button>
+
+
+</form>
+    
+</body>
+</html>
